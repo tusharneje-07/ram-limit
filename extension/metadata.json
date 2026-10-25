@@ -1,0 +1,7 @@
+{
+  "uuid": "ram-alert@local",
+  "name": "RAM Alert Top Bar Flash",
+  "description": "Provides a D-Bus method for ram-alert to flash the GNOME top bar when RAM use reaches its threshold.",
+  "shell-version": ["48"],
+  "version": 1
+}

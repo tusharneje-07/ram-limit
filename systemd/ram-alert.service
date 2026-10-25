@@ -1,0 +1,11 @@
+[Unit]
+Description=RAM usage alert for GNOME
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/ram-alert --threshold 14.5GiB
+Restart=on-failure
+RestartSec=3
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin
+
+[Install]
+WantedBy=default.target
